@@ -1,0 +1,6 @@
+{
+  "name": "Aegis Cyber Threat Intelligence",
+  "description": "Enterprise-grade Cyber Threat Intelligence (CTI) and Risk-Based Vulnerability Assessment platform featuring real-time global telemetry, threat actor profiling, MITRE ATT&CK mapping, EPSS/KEV exposure management, automated scanner engine, and Gemini AI-driven remediation guidance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

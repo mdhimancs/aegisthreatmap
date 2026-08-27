@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom Leaflet Tile Styling for Light Blue Ocean */
+.ocean-light-blue .leaflet-tile {
+  filter: hue-rotate(10deg) brightness(1.05) saturate(0.85) !important;
+}
+
+/* Specific styling for voyager tiles to make them even lighter blue if needed */
+.ocean-light-blue .leaflet-container {
+  background: #f0f9ff !important;
+}
